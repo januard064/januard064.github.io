@@ -1,0 +1,30 @@
+table{
+    width: 620px;
+    font-family: Arial;
+    background-color: #F6F5F4;
+    border: 1px solid #c5c5c5;
+  
+}
+
+table th{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 0 #6E6964;
+    background: -moz-linear-gradient(center top, #C8BFB2 0%, #A49D92 100%) 
+    repeat scroll 0 0 transparent;
+    
+
+table tr td{
+    padding: 7px;
+    font-size: 13px;
+    color: #666;
+    background: #f8f8f8;
+    border-top: 1px solid #ddd;
+}
+
+table tr.style td{
+    background: #f1ece2;
+    
+}

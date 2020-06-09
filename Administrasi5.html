@@ -1,0 +1,109 @@
+<!--Nama File : administrasi.html
+    NIM        : 11S17064
+    Kelas       : 13IF2
+-->
+
+
+
+
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title> Index</title>
+    <link href="styleku.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <div class="container">
+    <div class="header">
+           <img src ="del.png" width="105" height="105" align ="left" style="padding: 20px"  >
+      <h4 >  Situs Web S1 Informatika [11S17064]</h4> 
+    </div>
+       
+            <div class = "body">
+       
+           <div class = "article">
+                <h1>Administrasi</h1>
+                <h2>Tugas Akhir 11S17064 Januard</h2><hr size="2px" width="80%" align="left">
+
+                <form action="contact.php" method="POST"> 
+                    <fieldset>
+                        <legend>Form Informasi TA</legend>
+                        <table cellpadding ="5">
+
+                            <tr>
+                            <td><label>NIM</label></td>
+                           <td> <input type="text" name="NIM" required pattern="(?=^.{7,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z]).*$" title="Harus 7 karakter dengan huruf dan angka"  ></td>
+                        </tr>
+
+                            <tr>
+                           <td> <label>Nama</label></td>
+                            <td><input type="text" name="Nama" required title="Harap masukkan Nama Anda"></td>
+                              </tr>  
+                        
+                        <tr>
+                               <td> <label>Angkatan</label></td>
+                              <td>  <select name="Angkatan">
+                                    <option value="2016"> 2016 </option>
+                                    <option value="2017"> 2017 </option>
+                                    <option value="2018"> 2018 </option>
+                                    <option value="2019"> 2019 </option></td>
+                                </tr>
+
+                        <tr>
+                           <td>  <label>Program Studi</label></td>
+                            <td> <label><input type="radio" name="program_studi" value="d3ti"> D3TI</label>
+                             <label><input type="radio" name="program_studi" value="d4ti"> D4TI</label>
+                             <label><input type="radio" name="program_studi" value="s1ti"> S1TI</label>
+                            </td>
+                            </tr>
+
+                        <tr>
+                            <td><label>Judul TA</label></td>
+                            <td><textarea cols="50" name="judul_ta"></textarea></td>
+                        </tr>    
+
+                        <tr>
+                            <td><label>Pembimbing</label></td>
+                            <td><input list="Pembimbing" name="Pembimbing" >
+                                <datalist id="Pembimbing">
+                                    <option value="Arie Satia Dharma,S.T,M.Kom"></option>
+                                    <option value="Yaya Setiadi,S.Si.,MT"></option>
+                                    <option value="Lit Malem Ginting,S.Si.,MT"></option>
+                                    <option value="Johannes Harungguan,S.T,MT"></option>
+                                </datalist>
+
+                            </td>
+                        </tr>
+                    
+
+                        <tr >
+                            <td></td>
+                            <td ><input type="submit" name="submit" value="Submit"></td>
+
+                        </tr>
+                            </table>
+
+                    </fieldset>
+                </form><br>
+ 
+           </div>
+           
+            
+            <div class="nav" >
+                <ul><a href="index.html">Home</a></ul>
+                <ul><a href="profilDiri.html">Profil Diri</a></ul>
+                <ul><a href="DataAkademis.html">Data Akademis</a></ul>
+                <ul><a href="Administrasi.html">Administrasi</a></ul>
+                <br><br><br> <br><br>
+            </div>  
+            
+        </div>  
+        <div class="clear"></div>
+        <div class ="footer" >Copyright @PABWE 2019</div>
+
+    </div>
+</body>
+</html>
